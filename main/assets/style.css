@@ -9,7 +9,53 @@ body {
 }
 
 header {
-    padding: 20px;
+    padding: 25px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, Arial;
     background-color: #13f3e0;
+}
+
+header h1 {
+    display: inline-block;
+    font-size: 48px;
+    color: #3c4170;
+}
+
+header div {
+    margin-right: 15px;
+    float: right;
+    font-size: 20px;
+}
+
+header div ul li {
+    margin-left: 25px;
+    list-style: disc;
+}
+
+header p {
+    font-size: 24px;
+    font-family: cursive, 'Times New Roman', Times, serif;
+    color: #3c4170;
+}
+
+main {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    padding: 25px;
+}
+
+main h2 {
+    font-size: 40px;
+}
+
+main p {
+    padding: 40px;
+}
+
+footer {
+    padding: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, Arial;
+    font-size: 20px;
+    text-align: center;
+    background-color: #13f3e0;
+    color: #3c4170;
 }
