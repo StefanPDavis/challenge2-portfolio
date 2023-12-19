@@ -47,9 +47,14 @@ main {
 }
 
 .me img {
-    width: 500px;
+    width: 400px;
     height: 500px;
     margin-bottom: 40px;
+}
+
+.leo img {
+    width: 400px;
+    height: 500px;
 }
 
 main h2 {
@@ -95,4 +100,22 @@ footer {
     text-align: center;
     background-color: #13f3e0;
     color: #3c4170;
+}
+
+@media screen and (max-width: 992px) {
+    header, main {
+      flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    header, main {
+      flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    header, main {
+      flex-direction: column;
+    }
 }
